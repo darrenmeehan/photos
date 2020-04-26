@@ -1,3 +1,7 @@
+# Photos
+
+Store your photos online securely and privately.
+
 ## How to install
 
 ```sh
