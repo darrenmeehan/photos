@@ -50,3 +50,9 @@ npm test -- --safari
 * The `static` folder contains any files that you want copied as-is into the final build. It contains an `index.html` file which loads the `index.js` file.
 
 * The `tests` folder contains your Rust unit tests.
+
+
+### Why such a complicated setup?
+
+I believe Web Assembly is the future of the web.
+I also believe Rust has some interesting concepts with its strict compiler and its strict typing. I'm hoping `rust-wasm` handles a lot of the pain in setup.
