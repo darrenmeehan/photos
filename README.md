@@ -1,5 +1,13 @@
 # Photos
 
+This application is in its very early stages.
+
+I'm using it as a side project to develop my [Rust](https://www.rust-lang.org) skills.
+
+It's not recommended for use yet. But feel free to check it out and send any feedback my way!
+
+## Project Goal
+
 Store your photos online securely and privately.
 
 ## How to install
