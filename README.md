@@ -56,3 +56,7 @@ npm test -- --safari
 
 I believe Web Assembly is the future of the web.
 I also believe Rust has some interesting concepts with its strict compiler and its strict typing. I'm hoping `rust-wasm` handles a lot of the pain in setup.
+
+#### wasm-pack
+
+https://rustwasm.github.io/docs/wasm-pack/introduction.html
