@@ -25,13 +25,6 @@ pub fn main_js() -> Result<(), JsValue> {
     // Your code goes here!
     console::log_1(&JsValue::from_str("Hello world!"));
 
-    html! {
-        <>
-            <div></div>
-            <p></p>
-        </>
-    };
-
     demo();
 
     greet();
@@ -105,6 +98,8 @@ impl Component for Model {
     fn view(&self) -> Html {
         html! {
             <div>
+                <h1>{ "Photos" }</h1>
+                <img src="samples/1.png"/>
                 <button onclick=self.link.callback(|_| Msg::Click)>{ "Click ( wasm-bindgen )" }</button>
             </div>
         }
