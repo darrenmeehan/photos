@@ -3,7 +3,7 @@
 name = "photos"
 description = "My super awesome Rust, WebAssembly, and Webpack project!"
 version = "0.1.0"
-authors = ["You <you@example.com>"]
+authors = ["Darren Meehan <hi@drn.ie>"]
 categories = ["wasm"]
 readme = "README.md"
 edition = "2018"
