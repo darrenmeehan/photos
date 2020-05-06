@@ -13,7 +13,6 @@ use yew::{html, Component, ComponentLink, Html, ShouldRender};
 #[global_allocator]
 static ALLOC: wee_alloc::WeeAlloc = wee_alloc::WeeAlloc::INIT;
 
-
 // This is like the `main` function, except for JavaScript.
 #[wasm_bindgen(start)]
 pub fn main_js() -> Result<(), JsValue> {
@@ -25,14 +24,7 @@ pub fn main_js() -> Result<(), JsValue> {
     // Your code goes here!
     console::log_1(&JsValue::from_str("Hello world!"));
 
-    html! {
-        <>
-        </>
-    };
-
     demo();
-
-    greet();
 
     Ok(())
 }
@@ -64,6 +56,10 @@ fn create_demo_photos() {
     // let first_photo = Photo { path };
 
     // return photo_names
+}
+
+fn get_sample_photos() {
+    // Create models and map to file name..
 }
 
 struct Photo {
@@ -104,7 +100,7 @@ impl Component for Model {
         html! {
             <div>
                 <h1>{ "Photos" }</h1>
-                <img src="samples/1.png"/>
+                <img src="samples/IMG_20200406_132301544.jpg"/>
                 <button onclick=self.link.callback(|_| Msg::Click)>{ "Click ( wasm-bindgen )" }</button>
             </div>
         }
