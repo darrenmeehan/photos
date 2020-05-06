@@ -21,7 +21,16 @@ pub fn main_js() -> Result<(), JsValue> {
     #[cfg(debug_assertions)]
     console_error_panic_hook::set_once();
 
-    // Your code goes here!
+    // Loop through samples directory
+    // Eventually I'll be getting this from an API
+    // Hardcoding for now!
+    let mut vec = Vec::new();
+    vec.push("IMG_20200427_184619981_HDR.jpg");
+    vec.push("IMG_20200326_183831454.jpg");
+    vec.push("IMG_20200406_132301544.jpg");
+    for x in &vec {
+        console::log_1(&JsValue::from_str(x));
+    }
     console::log_1(&JsValue::from_str("Hello world!"));
 
     demo();
