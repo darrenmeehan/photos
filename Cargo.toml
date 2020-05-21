@@ -35,7 +35,7 @@ yew = "0.15.0"
 # The `web-sys` crate allows you to interact with the various browser APIs,
 # like the DOM.
 [dependencies.web-sys]
-version = "0.3.22"
+version = "0.3.39"
 features = ["console"]
 
 # The `console_error_panic_hook` crate provides better debugging of panics by
