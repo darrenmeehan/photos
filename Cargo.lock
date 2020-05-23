@@ -304,7 +304,7 @@ name = "photos"
 version = "0.1.0"
 dependencies = [
  "console_error_panic_hook",
- "futures 0.1.29",
+ "futures 0.3.4",
  "js-sys",
  "wasm-bindgen",
  "wasm-bindgen-futures 0.3.27",
