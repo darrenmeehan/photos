@@ -317,7 +317,7 @@ dependencies = [
  "futures 0.3.5",
  "js-sys",
  "wasm-bindgen",
- "wasm-bindgen-futures 0.3.27",
+ "wasm-bindgen-futures 0.4.10",
  "wasm-bindgen-test",
  "web-sys",
  "wee_alloc",
